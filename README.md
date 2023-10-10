@@ -10,6 +10,18 @@ After working together, we decided that our project would be **Hand Gesture Reco
 - [ ] **Understand the process behind hand tracking**
 - [ ] **Implement Hand Gesture Recognition into an application**
 
+## MediaPipe's Machine Learning Pipeline for Hand Gesture Recognition
+Machine Learning Pipeline for Hand Gesture Recognition is a cross-platform, open-source pipeline that can be used to detect and recognize hand gestures in real time. According to our group's research, it is a multi-stage pipeline that consists of the following steps:
+- [Preprocessing](# Preprocessing)
+- [Hand detection](# Hand detection)
+- [Hand landmark detection](# Hand landmark detection)
+- [Gesture recognition](# Gesture recognition)
+
+### Preprocessing
+### Hand detection
+### Hand landmark detection
+### Gesture recognition
+
 
 ## References
 **Custom Hand Gesture Recognition with Hand Landmarks Using Google’s Mediapipe + OpenCV in Python**
@@ -27,3 +39,7 @@ https://opencv.org/
 **On-Device, Real-Time Hand Tracking with MediaPipe**
 
 https://blog.research.google/2019/08/on-device-real-time-hand-tracking-with.html
+
+**Official MediaPipe Documentation**
+
+https://developers.google.com/mediapipe
