@@ -16,12 +16,14 @@ Machine Learning Pipeline for Hand Gesture Recognition is a cross-platform, open
 - [Hand detection](#Hand-detection)
 - [Hand landmark detection](#Hand-landmark-detection)
 - [Gesture recognition](#Gesture-recognition)
-  
-<center><figure>
-    <img src="https://1.bp.blogspot.com/-jy9hueRc-5I/XVrS-xDKR7I/AAAAAAAAEhY/2pA9c6rzMwchn5UUAAK69or9j4dKA_AiwCLcBGAs/s640/image1.png"
-         alt="pipeline overview">
-    <figcaption>An overview of the hand perception pipeline.</figcaption>
-</figure></center>
+
+<center>
+  <figure>
+      <img src="https://1.bp.blogspot.com/-jy9hueRc-5I/XVrS-xDKR7I/AAAAAAAAEhY/2pA9c6rzMwchn5UUAAK69or9j4dKA_AiwCLcBGAs/s640/image1.png"
+           alt="pipeline overview">
+      <center><figcaption>An overview of the hand perception pipeline.</figcaption></center>
+  </figure>
+</center>
 
 ### Preprocessing
 ### Hand detection
