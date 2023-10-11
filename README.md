@@ -26,15 +26,16 @@ Machine Learning Pipeline for Hand Gesture Recognition is a cross-platform, open
 </center>
 
 ### Preprocessing
-When given thousands of images, the first thing to do is to preprocess all the images. We want to make sure that the input image is in a format that is suitable for the subsequent steps in the pipeline. The preprocessing part may consist of the following steps:
+When given thousands of images, the first thing we need to do is preprocess all the images. We want to make sure that the input image is in a format that is suitable for the subsequent steps in the pipeline. The preprocessing part may consist of the following steps:
 - **Resizing the image**: The input image would be resized to a specific size. This is because the hand detection and hand landmark detection models in the pipeline are trained on images of a specific size.
 
 - **Normalizing the pixel values**: The images' pixel values would be normalized to improve the performance of the hand detection and hand landmark detection models. Pixel normalization involves scaling the pixel values to a specific range. This is done to _reduce the impact of variations in lighting and other factors_ on the performance of the models.
 
 - **Converting the image to grayscale**: The input image may be converted to grayscale. This is because the hand detection and hand landmark detection models in the pipeline are _typically trained on grayscale images_. Grayscale images are easier for the models to process and can improve the accuracy of the results.
-Besides the above steps, the preprocessing step may also involve other steps, such as _denoising the image_ and _removing unwanted objects_from the image.
+Besides the above steps, the preprocessing step may also involve other steps, such as _denoising the image_ and _removing unwanted objects_ from the image.
 
 ### Hand detection
+After having our images suitable for processing, the next step is to **detect the presence** of hands in those images. The hand detection part of the pipeline is a machine-learning model that has been trained on a dataset of images that contain hands. It works by first **extracting features** from the input image, such as the shape of the hand, the color of the skin, and the position of the hand in the image. Once the hand detection model has done that, it will use these features to classify the image as **containing a hand** or **not containing a hand**. If the model classifies the image as containing a hand, it will also output **a bounding box** around the hand in the image.
 ### Hand landmark detection
 ### Gesture recognition
 
