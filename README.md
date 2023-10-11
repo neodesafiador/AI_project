@@ -26,6 +26,14 @@ Machine Learning Pipeline for Hand Gesture Recognition is a cross-platform, open
 </center>
 
 ### Preprocessing
+When given thousands of images, the first thing to do is to preprocess all the images. We want to make sure that the input image is in a format that is suitable for the subsequent steps in the pipeline. The preprocessing part may consist of the following steps:
+- **Resizing the image**: The input image would be resized to a specific size. This is because the hand detection and hand landmark detection models in the pipeline are trained on images of a specific size.
+
+- **Normalizing the pixel values**: The images' pixel values would be normalized to improve the performance of the hand detection and hand landmark detection models. Pixel normalization involves scaling the pixel values to a specific range. This is done to _reduce the impact of variations in lighting and other factors_ on the performance of the models.
+
+- **Converting the image to grayscale**: The input image may be converted to grayscale. This is because the hand detection and hand landmark detection models in the pipeline are _typically trained on grayscale images_. Grayscale images are easier for the models to process and can improve the accuracy of the results.
+Besides the above steps, the preprocessing step may also involve other steps, such as _denoising the image_ and _removing unwanted objects_from the image.
+
 ### Hand detection
 ### Hand landmark detection
 ### Gesture recognition
