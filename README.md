@@ -52,9 +52,8 @@ For training purposes, **approximately 30,000 real-world images were utilized**,
 ### Gesture recognition
 The Hand Landmark Model, after identifying key points or 'skeleton' of the hand, proceeds to **gesture recognition**. The **angles formed by the joints** are analyzed to determine the state of each finger, whether it's bent or straight. Using this information about the fingers, the model then matches the hand shape to a list of known gestures. According to the Research Engineers at Google, this method is effective in **detecting static gestures** with commendable accuracy. It has been calibrated to recognize counting gestures in various cultural norms, such as American, European, and Chinese. Furthermore, the model is capable of identifying specific hand signs like "Thumb up", closed fist, "OK", "Rock", and "Spiderman".
 
-Here's an example:
-![Example of detected hand gestures](https://1.bp.blogspot.com/-ym8EfnQKlqM/XVrTPqWUqsI/AAAAAAAAEh0/GfCY8BW28SgTqYO0gd230YgbwGgxc7yfgCLcBGAs/s1600/image3.gif)
-<img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);" src="https://1.bp.blogspot.com/-xmtORGq9oVQ/XVrTP5nvIDI/AAAAAAAAEh8/d7t_e2WVs5sSo94YsPxEfP3JlaBF1EDSwCLcBGAs/s1600/image10.gif">
+
+
 
 ## References
 **Custom Hand Gesture Recognition with Hand Landmarks Using Google’s Mediapipe + OpenCV in Python**
