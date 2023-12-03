@@ -7,7 +7,7 @@ After working together, we decided that our project would be **Hand Gesture Reco
 
 ## Milestones
 
-- [ ] **Understand the process behind hand tracking**
+- [X] **Understand the process behind hand tracking**
 - [ ] **Implement Hand Gesture Recognition into an application**
 
 ## MediaPipe's Machine Learning Pipeline for Hand Gesture Recognition
