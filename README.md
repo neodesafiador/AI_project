@@ -70,6 +70,7 @@ The Hand Landmark Model, after identifying key points or 'skeleton' of the hand,
 ### Run
     sudo python3 dino.py    
 
+Then, on your chrome browser, go to chrome://dino/.
 
 
 ## References
