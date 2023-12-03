@@ -72,7 +72,7 @@ The Hand Landmark Model, after identifying key points or 'skeleton' of the hand,
 
 Then, on your chrome browser, go to the following link:
 
-chrome://dino/
+    chrome://dino/
 
 
 ## References
