@@ -8,14 +8,21 @@ After working together, we decided that our project would be **Hand Gesture Reco
 ## Milestones
 
 - [X] **Understand the process behind hand tracking**
-- [ ] **Implement Hand Gesture Recognition into an application**
+- [X] **Implement Hand Gesture Recognition into an application**
 
 ## MediaPipe's Machine Learning Pipeline for Hand Gesture Recognition
 Machine Learning Pipeline for Hand Gesture Recognition is a cross-platform, open-source pipeline that can be used to detect and recognize hand gestures in real time. According to our group's research, it is a multi-stage pipeline that consists of the following steps:
-- [Preprocessing](#Preprocessing)
-- [Hand detection](#Hand-detection)
-- [Hand landmark detection](#Hand-landmark-detection)
-- [Gesture recognition](#Gesture-recognition)
+- [AI Project - *Hand Gesture Recognition*](#ai-project---hand-gesture-recognition)
+  - [Overview](#overview)
+  - [Milestones](#milestones)
+  - [MediaPipe's Machine Learning Pipeline for Hand Gesture Recognition](#mediapipes-machine-learning-pipeline-for-hand-gesture-recognition)
+    - [Preprocessing](#preprocessing)
+    - [Hand detection](#hand-detection)
+    - [Hand landmark detection](#hand-landmark-detection)
+    - [Gesture recognition](#gesture-recognition)
+    - [Installation](#installation)
+    - [Run](#run)
+  - [References](#references)
 
 <center>
   <figure>
@@ -52,6 +59,16 @@ For training purposes, **approximately 30,000 real-world images were utilized**,
 ### Gesture recognition
 The Hand Landmark Model, after identifying key points or 'skeleton' of the hand, proceeds to **gesture recognition**. The **angles formed by the joints** are analyzed to determine the state of each finger, whether it's bent or straight. Using this information about the fingers, the model then matches the hand shape to a list of known gestures. According to the Research Engineers at Google, this method is effective in **detecting static gestures** with commendable accuracy. It has been calibrated to recognize counting gestures in various cultural norms, such as American, European, and Chinese. Furthermore, the model is capable of identifying specific hand signs like "Thumb up", closed fist, "OK", "Rock", and "Spiderman".
 
+
+### Installation
+    git clone https://github.com/neodesafiador/AI_project.git
+    pip install opencv-python
+    pip install mediapipe
+    pip install keyboard
+
+
+### Run
+    sudo python3 dino.py    
 
 
 
