@@ -12,7 +12,8 @@ Group members: **Quang Dang, Katsuki Oike**
     - [Hand landmark detection](#hand-landmark-detection)
     - [Gesture recognition](#gesture-recognition)
   - [Installation](#installation)
-  -  [Run](#run)
+  - [Run](#run)
+  - [Demo](#demo-video)
   - [References](#references)
 ## Overview
 After working together, we decided that our project would be **Hand Gesture Recognition**, a combination of the two previous ideas: Headball and Air Canvas. We will dive deeper into how machines can learn to recognize hand gestures, with the aim of implementing this technology to play some simple games. 
@@ -23,7 +24,7 @@ After working together, we decided that our project would be **Hand Gesture Reco
 - [X] **Implement Hand Gesture Recognition into an application**
 
 ## MediaPipe's Machine Learning Pipeline for Hand Gesture Recognition
-Machine Learning Pipeline for Hand Gesture Recognition is a cross-platform, open-source pipeline that can be used to detect and recognize hand gestures in real time. According to our group's research, it is a multi-stage pipeline that consists of the following steps:
+Machine Learning Pipeline for Hand Gesture Recognition is a cross-platform, open-source pipeline that can be used to detect and recognize hand gestures in real-time. According to our group's research, it is a multi-stage pipeline that consists of the following steps:
 
 <center>
   <figure>
@@ -60,6 +61,7 @@ For training purposes, **approximately 30,000 real-world images were utilized**,
 ### Gesture recognition
 The Hand Landmark Model, after identifying key points or 'skeleton' of the hand, proceeds to **gesture recognition**. The **angles formed by the joints** are analyzed to determine the state of each finger, whether it's bent or straight. Using this information about the fingers, the model then matches the hand shape to a list of known gestures. According to the Research Engineers at Google, this method is effective in **detecting static gestures** with commendable accuracy. It has been calibrated to recognize counting gestures in various cultural norms, such as American, European, and Chinese. Furthermore, the model is capable of identifying specific hand signs like "Thumb up", closed fist, "OK", "Rock", and "Spiderman".
 
+<img src='https://media0.giphy.com/media/FmomUe1gAmRxUV8Bdi/giphy.gif' title='Gestures' width='' alt='Gestures' />
 
 ## Installation
     git clone https://github.com/neodesafiador/AI_project.git
@@ -74,6 +76,9 @@ The Hand Landmark Model, after identifying key points or 'skeleton' of the hand,
 Then, on your chrome browser, go to the following link:
 
     chrome://dino/
+
+## Demo Video
+<img src='https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDFic2Z3b3VzMW9yanhyYmdhOHp0enhvcnF4NTNia3gwN2ZhMDMzNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/epaSYpsjzRuN1WnGOr/giphy.gif' title='Demo Video' width='100%' alt='Demo Video ' />
 
 
 ## References
